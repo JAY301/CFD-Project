@@ -1,4 +1,4 @@
-## Solver developed in C to solve CFD problems
+# Solver developed in C to solve CFD problems
 
 # To see results
 1. Check the report
