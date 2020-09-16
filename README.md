@@ -1,8 +1,10 @@
-#to see results
+## Solver developed in C to solve CFD problems
+
+# To see results
 1. Check the report
 
 
-#to run heated plate problem:
+# To run heated plate problem:
 1.	Make clean 
 2.	Make 
 3.	Press “1”
@@ -17,14 +19,14 @@ To see results in paraview:
 6.	Select Background “Black” to see the Temperature profile
 7.	Animations can be seen using “Animation tool bar ” using “real time” mode using 10 as a Duration
 
-#to run Cavity problem with 9 particles visulization
+# To run Cavity problem with 9 particles visulization
 
 1.	Make clean 
 2.	Make 
 3.	Press “2”
 4.	Simulation will run 
 
-To see results in paraview: 
+# To see results in paraview: 
 1.	load boundaries.vtk available in repository
 2.	Press apply
 3.	Load all VTKs
@@ -35,14 +37,14 @@ To see results in paraview:
 8.  Select "glyph vector" to see velocity profile and "Pressure" to see pressure values.
 9.	Animations can be seen using “Animation tool bar ” using “real time” mode using 10 as a Duration
 
-#to run Cavity problem with all particles visulization
+# To run Cavity problem with all particles visulization
 
 1.	Make clean 
 2.	Make 
 3.	Press “3”
 4.	Simulation will run 
 
-To see results in paraview: 
+# To see results in paraview: 
 1.	load boundaries.vtk available in repository
 2.	Press apply
 3.	Load all VTKs
@@ -52,14 +54,3 @@ To see results in paraview:
 7.	Select Background “Black” to see nice results
 8.  Select "glyph vector" to see velocity profile and "Pressure" to see pressure values.
 9.	Animations can be seen using “Animation tool bar ” using “real time” mode using 10 as a Duration
-
-
-#relevant links
-1. https://github.com/DualSPHysics/DualSPHysics/wiki/3.-SPH-formulation#38-boundary-conditions
-2. https://github.com/bigthetaio/mueller-sph
-3. https://github.com/phanix5/SPH-solver/blob/master/SPH/SPH/kernel.cu
-4. Lid driven :  http://eprints.utem.edu.my/4245/1/SPH_Paper.pdf
-5. for boundary: https://github.com/momohuang/SPH-Fluid-Simulation/blob/master/SPHfluid.cpp, https://www.cs.cornell.edu/~bindel/class/cs5220-f11/code/sph.pdf
-6. https://cg.informatik.uni-freiburg.de/course_notes/sim_10_sph.pdf
-
-
