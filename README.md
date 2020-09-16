@@ -1,16 +1,16 @@
 # Solver developed in C to solve CFD problems
 
-# To see results
+## To see results
 1. Check the report
 
 
-# To run heated plate problem:
+## To run heated plate problem:
 1.	Make clean 
 2.	Make 
 3.	Press “1”
 4.	Simulation will run 
 
-To see results in paraview: 
+## To see results in paraview: 
 1.	Load VTKs
 2.  Press apply.
 3.	Selects Glyph (Sphere), with scaling factor = 0.5 and Glyph mode =”All points”
@@ -19,14 +19,14 @@ To see results in paraview:
 6.	Select Background “Black” to see the Temperature profile
 7.	Animations can be seen using “Animation tool bar ” using “real time” mode using 10 as a Duration
 
-# To run Cavity problem with 9 particles visulization
+## To run Cavity problem with 9 particles visulization
 
 1.	Make clean 
 2.	Make 
 3.	Press “2”
 4.	Simulation will run 
 
-# To see results in paraview: 
+## To see results in paraview: 
 1.	load boundaries.vtk available in repository
 2.	Press apply
 3.	Load all VTKs
@@ -37,14 +37,14 @@ To see results in paraview:
 8.  Select "glyph vector" to see velocity profile and "Pressure" to see pressure values.
 9.	Animations can be seen using “Animation tool bar ” using “real time” mode using 10 as a Duration
 
-# To run Cavity problem with all particles visulization
+## To run Cavity problem with all particles visulization
 
 1.	Make clean 
 2.	Make 
 3.	Press “3”
 4.	Simulation will run 
 
-# To see results in paraview: 
+## To see results in paraview: 
 1.	load boundaries.vtk available in repository
 2.	Press apply
 3.	Load all VTKs
